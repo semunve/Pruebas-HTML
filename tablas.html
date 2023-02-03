@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title> Tablas en html</title>
+<style>
+   col:nth-child(1){
+    background-color: aqua;
+   }
+
+   col:nth-child(2){
+    background-color: aquamarine;
+   }
+</style>
+<body>
+
+    <h4> Etiquetas usadas </h4>
+    <p>table: la etiqueta que encierra una tabla</p>
+    <p>tr(table row) contruye una fila </p>
+    <p> td (table data) construye una celda
+    </p>
+    <p> caption:para el titulo de la tabla</p>
+    <p>thead para la cabecera</p>
+    <p>th para cabeceras por fila</p>
+    <p>rowspan para que una celda ocupe varias filas</p>
+    <p>colspan para que una celda ocupe mas de una columna</p>
+
+
+<h1>Tabla semanal </h1>
+<table border>
+
+    <caption>Horario semanal</caption>
+    <colgroup>
+    <col span="5"> <col>
+
+
+    </colgroup>
+    <thead>
+        <tr>
+            <th> </th>
+            <th> L</th>
+            <th>M </th>
+            <th> X</th>
+            <th> J</th>
+            <th> V</th>
+
+        </tr>
+    </thead>
+<tr>
+    <td> 8:00-9:00</td>
+    <td>Matematicas</td>
+    <td>Matematicas</td>
+    <td>Sociales</td>
+    <td>Matematicas</td>
+    <td rowspan="3">Matematicas</td>
+</tr>
+
+<tr> 
+    <td>9:00-10:00 </td>
+    <td>lengua</td>
+    <td>Matematicas</td>
+    <td>Inglés</td>
+    <td>Matematicas</td>
+    
+
+</tr>
+
+<tr> 
+    <td>10:00 - 10:45 </td>
+    <td>ingles</td>
+    <td>Ingles</td>
+    <td>Sociales</td>
+    <td>Sociales</td>
+   
+
+</tr>
+
+<tr>
+<td>10:45-11:15</td>
+<colspan="5"><td>Recreo</td></colspan=> </td>
+
+
+   
+    
+</tr>
+
+<tr> 
+    <td>12:00- 13:00 </td>
+    <td>Matematicas</td>
+    <td>Matematicas</td>
+    <td>Sociales</td>
+    <td>Lengua</td>
+    <td>Lengua</td>
+
+</tr>
+<tr> 
+    <td>13:00- 14:00 </td>
+    <td>Lengua</td>
+    <td>Lengua</td>
+    <td>Ingles</td>
+    <td rowspan="2">Ingles</td>
+    <td>Ingles</td>
+
+</tr>
+
+<tr> 
+    <td>14:00- 15:00 </td>
+    <td>Matematicas</td>
+    <td>Matematicas</td>
+    <td>Sociales</td>
+    <td>Matematicas</td>
+
+</tr>
+
+
+
+</table border>
+
+    
+
+</body>
+</html>
